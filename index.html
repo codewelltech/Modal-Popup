@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+</head>
+
+<body>
+    <button class="btn btn-show">Show Modal</button>
+    <div class="container">
+        <div class="modal hidden">
+            <div class="row jc-sb md-header">
+                <div>
+                    <h2>Modal Popup</h2>
+                </div>
+                <div>
+                    <button class="close-modal">&times;</button>
+                </div>
+            </div>
+            <div class="row jc-sb md-body">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima ullam repudiandae quos, omnis
+                    fuga debitis at assumenda ut, voluptas amet ipsum quaerat? Ratione vitae laboriosam ex eveniet
+                    fugiat doloremque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere dolorem distinctio?
+                    Eveniet vitae ducimus beatae, rerum reprehenderit amet repellat, quasi facere accusamus error nemo
+                    voluptate explicabo quia dolore praesentium!
+
+                </p>
+            </div>
+            <div class="row md-footer jc-fe">
+                <button onclick="closeModal()" class="btn btn-close">Close</button>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
